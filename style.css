@@ -1,0 +1,249 @@
+*{
+    font-family: "Merriweather", serif;
+}
+
+.navbar{
+    position: absolute;
+    font-size: larger;
+    z-index: 1;
+}
+
+.navbar-brand{
+    margin-left: 5rem;
+}
+
+.navbar-brand, .nav-link, .banner-content{
+    color: aliceblue;
+}
+
+.navbar-nav{
+    margin-left: 80%;  
+    gap: 2rem;
+}
+
+.nav-item .btn{
+    margin-top: 0.3rem;
+    color: white;
+}
+
+.banner{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.banner img{
+    height: 100vh;    
+    width: 100%;
+    object-fit: cover;
+}
+
+.banner-content{
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: 40%;
+    line-height: 2.5rem;
+    text-align: center;
+    z-index: 1;
+}
+
+.mission-statement{
+    background-color: #CBD2A4;
+    padding: 10rem 7rem 3rem 7rem;
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 2rem;
+}
+
+.mission-statement img{
+    width: 18rem;
+    height: 200px;
+}
+
+.mission-statement .posters{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    gap: 1.5rem;
+}
+
+.mission-content{
+    margin-top: 5rem;
+    width: 50%;
+}
+
+.mission-content .mission-description{
+    font-size: 1.3rem;
+    font-weight: 100;
+}
+
+.mission-content h3{
+    font-size: 50px;
+}
+
+.btn{
+    background-color: transparent;
+    border: 1px solid gray;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: black;
+    border-color: black;
+    color: antiquewhite;
+}
+
+.projects{
+    padding: 3rem 7rem 3rem 7rem;
+    background-color: #FFF1DB;
+    display: flex;
+}
+
+.project-images{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.project-content{
+    margin-top: 5rem;
+    text-align: end;
+    width: 50%;
+}
+
+.project-images img{
+    width: 200px;
+}
+
+.showcase{
+    width: 100%;
+    height: auto;
+    background-color: #F3F3E0;
+    margin-bottom: 0;
+}
+
+.showcase .showcase-achivements{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10rem;
+}
+
+.showcase .showcase-content{
+    gap: 10rem;
+}
+
+.showcase-content .content-img{
+    padding-left: 5rem;
+}
+
+.showcase .content-text{
+    padding: 5rem;
+}
+
+.project-count h1{
+    font-weight: 900;
+}
+
+.vertical-line{
+    width: 1px;
+    height: 4rem;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.chip{
+    height: 25%;
+    width: 60%;
+    background-color: azure;
+    top: 85%;
+    margin: 0 20%;
+    border: 1px solid;
+}
+
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: #FEFAE0;
+}
+
+footer section ul li{
+    opacity: 0.6;
+}
+
+.partners{
+    background-color: #F3F3E0;
+    height: auto;
+    width: 100%;
+}
+
+.single-logo{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.single-logo img{
+    opacity: 0.5;
+    width: 100%;
+    transition: 0.5s;
+}
+
+.horizontal-line{
+    height: 1px;
+    width: 80%;
+    background-color: black;
+    left: 10%;
+    right: 10%;
+    opacity: 0.3;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+.single-logo img:hover{
+    opacity: 0.7;
+}
+
+.contact-us{
+    width: 100%;
+    height: auto;
+    background-color: #FEF9D9;
+}
+
+.join-us-main-container{
+    background-color: #FFF1DB;
+}
+
+.join-us-main-container .image-container .image{
+    width: 15rem;
+}
+
+.join-us-main-container .image-container .image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.last-para{
+    background-color: #efca90;
+    text-align: center;
+}

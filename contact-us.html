@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="logos/brand-logo.png" />
+    <title>WeDonate</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="hero">
+        <nav class="navbar navbar-expand-lg" style="color: antiquewhite">
+          <div class="container-fluid">
+            <a href="/" class="text-white text-decoration-none">
+              <img
+                src="logos/brand-logo.png"
+                style="width: 50px; top: -0.3rem; margin-left: 4rem"
+                class="position-relative"
+              />
+              WeDonate</a
+            >
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/contact-us.html">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/join-us.html">Join</a>
+                </li>
+                <li class="nav-item">
+                  <a class="btn">Donate</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="banner">
+          <img src="./photos/photo6.jpg" style="height: 60vh" alt="photo1" />
+          <div
+            class="banner-content"
+            style="top: 15%; left: 5%; text-align: start"
+          >
+            <h3 class="hero-title" style="font-size: 5rem">Contact</h3>
+            <p>
+              Connect with us for more information about our Non-profit
+              Organisation and how you can contribute to our worthy causes.
+            </p>
+          </div>
+          <div class="overlay" style="height: 60%"></div>
+        </div>
+      </div>
+      <div
+        class="chip border-black rounded-5 position-absolute z-2 d-flex justify-content-evenly align-items-center fs-5"
+        style="top: 50%"
+      >
+      <div class="chip-content text-center">
+        <p class="text-uppercase fw-bold">Staffs</p>
+        <p class="text-num">0</p>
+      </div>
+      <div class="vertical-line"></div>
+      <div class="chip-content text-center">
+        <p class="text-uppercase fw-bold">Countries</p>
+        <p class="text-num">0</p>
+      </div>
+      <div class="vertical-line"></div>
+      <div class="chip-content text-center">
+        <p class="text-uppercase fw-bold">Involvments</p>
+        <p class="text-num">0</p>
+      </div>
+    
+    </div>
+      <div class="contact-us d-flex" style="padding: 10rem 5rem 5rem;">
+        <div class="contact-container col ">
+          <p class="text-uppercase" style="opacity: 0.8;">get in touch</p>
+          <h3 class="fw-bold">How can we help you ?</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus
+            facilis eius dignissimos rerum cumque temporibus nisi molestias quod a
+            suscipit ea dolor, exercitationem quam doloremque repellendus dolorem
+            illo iste nostrum?
+          </p>
+          <hr>
+          <p>Headquarters</p>
+          <p>2715 Demo St. San Jose, South Dakota</p>
+          <p>83475(205) 555-0100</p>
+          <hr>
+          <p><b>Follow us</b></p>
+          <p class="fs-2 d-flex column-gap-3 ps-3 pt-2"><i class="fa-brands fa-instagram"></i><i class="fa-brands fa-twitter"></i><i class="fa-brands fa-facebook"></i><i class="fa-brands fa-youtube"></i></p>
+        </div>
+        <div class="vertical-line mx-5" style="height: 60vh;" ></div>
+        <div class="contact-form col">
+          <h3>Send Us Message</h3>
+          <br>
+          <form class="needs-validation" novalidate>
+            <div class="col position-relative">
+              <label for="validationTooltip31" class="form-label">Fullname</label>
+              <input type="text" class="form-control" id="validationTooltip03" placeholder="Fulname" required>
+              <div class="valid-tooltip">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Fill the field
+              </div>
+            </div>
+            <br>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label" for="validationServer01"
+                >Email address</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="name@example.com"
+                id="validationServer01"
+                required
+              />
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Enter an email
+              </div>
+            </div>
+            <br>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label" form="validationServer02"
+                >Message</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+                id="validationServer02"
+                required
+              ></textarea>
+              <div class="valid-feedback">
+                Looks good!
+              </div>
+              <div class="invalid-feedback">
+                Field cannont be empty
+              </div>
+            </div>
+            <button class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <footer class="d-flex column-gap-5 justify-content-evenly align-items-center">
+      <section>
+        <h4>About us</h4>
+        <ul>
+          <li><a href="">Our History</a></li>
+          <li><a href="">What are we</a></li>
+          <li><a href="">Partners</a></li>
+        </ul> 
+      </section>
+      <section>
+        <h4>Ways to Donate</h4>
+        <ul>
+          <li><a href="">Fundraise</a></li>
+          <li><a href="">Planned Giving </a></li>
+          <li><a href="">Legacy Giving</a></li>
+        </ul>
+      </section>
+      <section>
+        <h4>Contact Info</h4>
+        <ul>
+        <li>Connectiomut 56789</li>
+        <li>(406) 555-0121</li>
+        <li>mail@example.com</li>
+        </ul>
+      </section>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+  <script>
+    (() => {
+      "use strict";
+
+      // Fetch all the forms we want to apply custom Bootstrap validation styles to
+      const forms = document.querySelectorAll(".needs-validation");
+
+      // Loop over them and prevent submission
+      Array.from(forms).forEach((form) => {
+        form.addEventListener(
+          "submit",
+          (event) => {
+            if (!form.checkValidity()) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+
+            form.classList.add("was-validated");
+          },
+          false
+        );
+      });
+    })();
+  </script>
+</html>
